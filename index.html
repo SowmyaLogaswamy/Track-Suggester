@@ -52,14 +52,32 @@
           <option value="designer">Designer</option>
           <option value="developer">Developer</option>
           <option value="gamer">Gamer</option>
-        </select>
-        </h3><br>
+        </select><br>
         </div>
-        <button type="submit" class="btn btn-primary">Suggest Track</button>
-        <button type="submit" class="btn btn-primary" id="clearbutton">Start Over</button>
-        </form>
-        <h2 id="trackname"></h2>
-        <h4 id="abouttrack"></h4>
+        <label for="dates"><em><h3>Choose your available date:</h3></em></label>
+        <input id="dates" class="form-control" type="date"><br></h3>
+        <h3><em>Which one do you prefer the most?
+        <div class="radio">
+          <label>
+          <input type="radio" name="choice" value="Front-End">Front-End</label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="choice" value="Back-end">Back-end</label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="choice" value="Devops">Devops</label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="choice" value="Fullstack">Full Stack</label></div></em>
+          </h3>
+          <button type="submit" class="btn btn-primary">Suggest Track</button>
+          <button type="submit" class="btn btn-primary" id="clearbutton">Start Over</button>
+          </form>
+          <h2 id="trackname"></h2>
+          <h4 id="abouttrack"></h4>
         </div>
       </div>
     </body>
