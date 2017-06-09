@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hospital Appointment Booking</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <form id="hospitalform">
+          <h1>Best Care Center</h1>
+          <p> Hello everybody!! <br> Please fill the below form
+            to know the best doctors. </p>
+            <div class="form-group">
+              Name: <input type=text id="name" class=form-control>
+              Age: <input type=text id="age" class=form-control>
+              Gender:<div class="radio">
+              <label>
+           <input type="radio" name="gender" value="male">
+           Male
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="gender" value="female">
+           Female
+         </label>
+       </div>
+       Address: <input type=text id="address" class=form-control>
+       Disease: <select class=form-control id="disease">
+         <option>What's your problem?</option>
+         <option value="diabetics">Diabetics</option>
+         <option value="pressure">Blood Pressure</option>
+         <option value="cholestrol">Cholestrol</option>
+       </select>
+      </div>
+      <button type="submit" id="submitbutton" class="btn">Suggest Doctor</button>
+    </form>
+    <h2 id="doctorname"></h2>
+    <p id="aboutdoctor"></p>
+  </div>
+</div>
+    </body>
+    </html>
