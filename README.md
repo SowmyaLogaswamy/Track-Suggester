@@ -27,7 +27,7 @@ _Sometimes pictures may not display_
 
 ## Support and contact details
 
-_Let me know what to do if you run into any issues or have questions, ideas or concerns.  contact at sowmyalogaswamy@gmail.com.You can view the link at https://github.com/SowmyaLogaswamy/Track-Suggester _
+_Let me know what to do if you run into any issues or have questions, ideas or concerns.  contact at sowmyalogaswamy@gmail.com. You can view the link at https://github.com/SowmyaLogaswamy/Track-Suggester _
 
 ## Technologies Used
 
