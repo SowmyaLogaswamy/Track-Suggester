@@ -7,9 +7,9 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
-  <body background="http://images.all-free-download.com/images/graphiclarge/wood_texture_06_hd_pictures_166553.jpg">
+  <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPztPJjrba9XpdzFGwFhWuFWcuMpcTCqRrFuTp7ttNFH51KTVD">
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron" id="jumboone">
         <h1 class="header" id="headerone">Track Suggester</h1>
         <h3 class="header" id="headertwo">Are you confused??? Don't worry!! Here is the solution!!!</h3>
     <img src="151023_FUT_Data-Mining-Column.jpg.CROP.promo-mediumlarge.jpg" alt="An image">
@@ -25,16 +25,18 @@
           Why are you interested in coding? :
             <select id="interest" class="form-control">
             <option>Am interested in coding because..</option>
-            <option>I love animations</option>
-            <option>I like to create applications</options>
-            <option>I like designing</option>
+            <option value="design">I like designing</option>
+            <option value="application">I like to create applications</options>
+            <option value="animation">I love animations</option>
+
+
             </select>
-          Why are your interests and skills? :
+          What are your interests and skills? :
           <select id="skills" class="form-control">
           <option>My skills..</option>
-          <option>Learning new languages</option>
-          <option>Designing</options>
-          <option>Playing games</option>
+          <option value="designing">Designing</options>
+          <option value="newlanguages">Learning new languages</option>
+          <option value="games">Playing games</option>
           </select>
           Do you have previous coding experience? :
           <div class="radio">
@@ -52,17 +54,20 @@
           Preferred job:
           <select id="job" class="form-control">
           <option>Job preference</option>
-          <option>Developer</option>
-          <option>Designer</option>
-          <option>Gamer</option>
+          <option value="designer">Designer</option>
+          <option value="developer">Developer</option>
+          <option value="gamer">Gamer</option>
         </select>
 </h3>
         </div>
         <button type="submit" class="btn">Suggest Track</button>
-
+        <button type="submit" class="btn" id="clearbutton">Start Over</button>
         </form>
+
+
         <h2 id="trackname"></h2>
-        <p id="abouttrack"></p>
+        <h4 id="abouttrack"></h4>
+
       </div>
     </div>
   </body>

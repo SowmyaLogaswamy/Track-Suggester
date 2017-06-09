@@ -1,7 +1,13 @@
-.jumbotron {
+.jumbotron#jumboone {
     background-color:transparent !important;
 }
 body{
-  background-size: 105%;
-  float: right;
+  background-size: 500%;
+  float: center;
+}
+.header#headerone {
+  color: white;
+}
+.header#headertwo {
+  color: white;
 }
