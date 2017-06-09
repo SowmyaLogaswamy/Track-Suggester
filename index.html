@@ -13,32 +13,30 @@
         <h1 class="header" id="headerone">Track Suggester</h1>
         <h3 class="header" id="headertwo">Are you confused??? Don't worry!! Here is the solution!!!</h3>
     <img src="151023_FUT_Data-Mining-Column.jpg.CROP.promo-mediumlarge.jpg" alt="An image">
-
-
         <form id="tracksuggesterform">
 
         <p class="paragraph">As we know, students must decide which track they would like to pursue before they enroll. While all languages have similarities, and switching between languages and platforms is very common in both internships and jobs, applicants should still choose the track they wish to complete with care.</p>
         <p class="paragraph">Currently, our academy offers several tracks in Seattle and Portland. Before you enroll just answer these questions and know the right track that best suits you.</p>
         <div class="form-group">
           <h3>
-          Name: <input type="text" id="name" class="form-control">
-          Why are you interested in coding? :
+          <em>Name:</em> <input type="text" id="name" class="form-control"><br>
+          <em>Why are you interested in coding? </em>
             <select id="interest" class="form-control">
-            <option>Am interested in coding because..</option>
+            <option value="choose">Choose your interest!</option>
             <option value="design">I like designing</option>
             <option value="application">I like to create applications</options>
             <option value="animation">I love animations</option>
-
-
             </select>
-          What are your interests and skills? :
+            <br>
+          <em>What are your interests and skills? </em>
           <select id="skills" class="form-control">
-          <option>My skills..</option>
+          <option value="choose">Choose your skill!</option>
           <option value="designing">Designing</options>
           <option value="newlanguages">Learning new languages</option>
           <option value="games">Playing games</option>
           </select>
-          Do you have previous coding experience? :
+          <br>
+          <em>Do you have previous coding experience?
           <div class="radio">
             <label>
               <input type="radio" name="experience" value="yes">
@@ -49,19 +47,19 @@
             <label>
               <input type="radio" name="experience" value="no">
               No
-            </label>
-          </div>
-          Preferred job:
+            </label></em>
+          </div><br>
+          <em>Preferred job:</em>
           <select id="job" class="form-control">
-          <option>Job preference</option>
+          <option value="choose">Choose your preference!</option>
           <option value="designer">Designer</option>
           <option value="developer">Developer</option>
           <option value="gamer">Gamer</option>
         </select>
-</h3>
+</h3><br>
         </div>
-        <button type="submit" class="btn">Suggest Track</button>
-        <button type="submit" class="btn" id="clearbutton">Start Over</button>
+        <button type="submit" class="btn btn-primary">Suggest Track</button>
+        <button type="submit" class="btn btn-primary" id="clearbutton">Start Over</button>
         </form>
 
 
