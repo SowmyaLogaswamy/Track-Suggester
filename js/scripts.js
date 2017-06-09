@@ -10,6 +10,7 @@ $(document).ready(function() {
     var experience=$("input:radio[name=experience]:checked").val();
     var job=$("#job").val();
     var date = $("#dates").val();
+    var prefer=$("input:radio[name=choice]:checked").val();
     if(interest==="design" && skills==="designing" && job==="designer")
       {
         $("#trackname").hide();
@@ -48,6 +49,8 @@ $(document).ready(function() {
     $("#skills").val("");
     $("#experience").val("");
     $("#job").val("");
+    $("#dates").val("");
+    $("#choice").val("");
     $("#trackname").hide();
     $("#abouttrack").hide();
   });
