@@ -1,5 +1,5 @@
-# Portfolio
-A portfolio of Sowmya
+# Track Suggester
+Epicodus-Track Suggester
 # _Track Suggester-Epicodus_
 
 #### _This project is all about my the track suggester. It helps the students those who are confused to choose the right track, 06.09.2017_

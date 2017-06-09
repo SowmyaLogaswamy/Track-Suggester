@@ -9,7 +9,6 @@ $(document).ready(function() {
     var skills=$("#skills").val();
     var experience=$("input:radio[name=experience]:checked").val();
     var job=$("#job").val();
-
     if(interest==="design" && skills==="designing" && job==="designer")
       {
         $("#trackname").hide();
@@ -20,12 +19,12 @@ $(document).ready(function() {
         $("#abouttrack").delay(100).slideToggle(500);
       }
     else if(interest==="applications" && skills==="newlanguages" && job==="developer")
-    {
-      $("#trackname").text("Ruby on Rails");
-      $("#abouttrack").text(name + "," + " Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.");
-      $("#trackname").delay(250).fadeIn(250);
-      $("#abouttrack").delay(250).fadeIn(250);
-    }
+      {
+        $("#trackname").text("Ruby on Rails");
+        $("#abouttrack").text(name + "," + " Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.");
+        $("#trackname").delay(250).fadeIn(250);
+        $("#abouttrack").delay(250).fadeIn(250);
+      }
     else if(interest==="animation" && skills==="games" && job==="gamer")
     {
       $("#trackname").text("Java");
@@ -33,26 +32,22 @@ $(document).ready(function() {
       $("#trackname").delay(250).fadeIn(500);
       $("#abouttrack").delay(250).fadeIn(500);
     }
-
-  else if(interest==="design" && skills==="newlanguages" && job==="gamer")
-  {
-    $("#trackname").text("Ruby on Rails");
-    $("#abouttrack").text(name + "," + " Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.                                     Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.");
-    $("#trackname").delay(100).fadeOut(250);
-    $("#abouttrack").delay(100).fadeOut(250);
-  }
-      event.preventDefault();
+    else if(interest==="design" && skills==="newlanguages" && job==="gamer")
+    {
+      $("#trackname").text("Ruby on Rails");
+      $("#abouttrack").text(name + "," + " Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.                                     Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.");
+      $("#trackname").delay(100).fadeOut(250);
+      $("#abouttrack").delay(100).fadeOut(250);
+    }
+    event.preventDefault();
   });
-
-  $("#clearbutton").click(function() {
-  $("#name").val("");
-  $("#interest").val("");
-  $("#skills").val("");
-  $("#experience").val("");
-  $("#job").val("");
-  $("#trackname").hide();
-  $("#abouttrack").hide();
-
-});
-
+    $("#clearbutton").click(function() {
+    $("#name").val("");
+    $("#interest").val("");
+    $("#skills").val("");
+    $("#experience").val("");
+    $("#job").val("");
+    $("#trackname").hide();
+    $("#abouttrack").hide();
+  });
 });

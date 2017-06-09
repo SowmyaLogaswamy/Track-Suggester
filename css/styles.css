@@ -1,27 +1,41 @@
 .jumbotron#jumboone {
     background-color:transparent !important;
 }
-body{
+
+
+body {
   background-size: 500%;
   float: center;
 }
+
+
 .header#headerone {
   color: white;
 }
+
+
 .header#headertwo {
   color: white;
 }
+
+
 .paragraph {
   font-style: oblique;
   color : black;
 }
+
+
 .form-control {
   font-style: italic;
 }
+
+
 h2#trackname {
   font-style: italic;
   color: pink;
 }
+
+
 h4#abouttrack {
   font-style: italic;
   color: white;
