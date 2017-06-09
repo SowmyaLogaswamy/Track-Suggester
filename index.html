@@ -8,38 +8,51 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1 class="header" id="headerone">Track Suggester</h1>
-    <p class="paragraph">As we know, students must decide which track they would like to pursue before they enroll. While all languages have similarities, and switching between languages and platforms is very common in both internships and jobs, applicants should still choose the track they wish to complete with care.</p>
-    <p class="paragraph">Currently, our academy offers several tracks in Seattle and Portland. Before you enroll just answer these questions and know the right track that best suits you.</p>
-    <!-- //Questions -->
-    Name: <input type="text" id="name">
-    Why are you interested in coding? : <select id="interest">
-      <option>Am interested in coding because..</option>
-      <option>I love animations</option>
-      <option>I like to create applications</options>
-      <option>I like designing</option>
-    </select>
-    Why are your interests and skills? : <select id="skills">
-      <option>My skills..</option>
-      <option>Learning new languages</option>
-      <option>Designing</options>
-      <option>Playing games</option>
-    </select>
-    Do you have previous experience? : <div class="radio">
-      <label>
-        <input type="radio" name="experience" value="yes">
-        Yes
-      </label>
-      <div class="radio">
-        <label>
-          <input type="radio" name="experience" value="no">
-          No
-        </label>
+    <div class="container">
+      <div class="jumbotron">
+        <form id="tracksuggesterform">
+        <h1 class="header" id="headerone">Track Suggester</h1>
+        <p class="paragraph">As we know, students must decide which track they would like to pursue before they enroll. While all languages have similarities, and switching between languages and platforms is very common in both internships and jobs, applicants should still choose the track they wish to complete with care.</p>
+        <p class="paragraph">Currently, our academy offers several tracks in Seattle and Portland. Before you enroll just answer these questions and know the right track that best suits you.</p>
+        <div class="form-group">
+          Name: <input type="text" id="name" class="form-control">
+          Why are you interested in coding? :
+            <select id="interest" class="form-control">
+            <option>Am interested in coding because..</option>
+            <option>I love animations</option>
+            <option>I like to create applications</options>
+            <option>I like designing</option>
+            </select>
+          Why are your interests and skills? :
+          <select id="skills" class="form-control">
+          <option>My skills..</option>
+          <option>Learning new languages</option>
+          <option>Designing</options>
+          <option>Playing games</option>
+          </select>
+          Do you have previous experience? :
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="yes">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="no">
+              No
+            </label>
+          </div>
+          Preferred job:
+          <select id="job" class="form-control">
+          <option>Job preference</option>
+          <option>Developer</option>
+          <option>Designer</option>
+          <option>Gamer</option>
+        </div>
+        <button type="submit" id="submitbutton" class="btn">Suggest Track</button>
+        </form>
       </div>
-      Preferred job: <select id="job">
-        <option>Job preference</option>
-        <option>Developer</option>
-        <option>Designer</option>
-        <option>Gamer</option>
-    </body>
+    </div>
+  </body>
   </html>
